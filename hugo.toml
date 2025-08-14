@@ -8,16 +8,6 @@ title = "Tom Konig | blog"
 theme = "alpha"
 #timeZone = "Europe/Rome"
 
-[module]
-  [[module.imports]]
-    path = 'https://github.com/hugomods/umami-analytics'
-
-[params]
-  [params.services]
-    [params.services.umami_analytics]
-      id = 'e8aa132e-faea-4308-9708-9f21cb5a0850'
-      script_url = 'https://cloud.umami.is/script.js'
-
 # Tailwind Integration (Build Options) 
 # Note: Enable the following only if you are using Tailwind CSS with this 
 # project.
