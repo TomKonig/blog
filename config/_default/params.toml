@@ -19,7 +19,7 @@ motto = "\"the limits of my language mean the limits of my world.\""
 # Enables Pagefind client-side search (requires installation).
 pagefind_enabled   = false
 # Enables GoatCounter analytics. Enter your site code here. (requires sign-up)
-goatcounter_prefix = ""
+goatcounter_prefix = "tomkonig"
 
 # Performance
 # ---------------------
