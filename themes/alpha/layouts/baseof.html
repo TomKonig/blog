@@ -47,8 +47,6 @@
     {{- /* Conditionally append LiVa assets */}}
     {{- if and hugo.IsDevelopment (.Site.Params.liva_enabled | default true) }}
       {{- partial "head/liva.html" . }}
-
-    {{ partialCached "hugomods/umami-analytics/index" . .Params.analyze }}
     {{- end }}
   </head>
   <body
