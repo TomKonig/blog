@@ -31,4 +31,4 @@ seo_image = ""
 twitter_username = ""
 +++
 
-literally just a test
+literally just a testing
