@@ -12,10 +12,6 @@ license = "CC-BY"
 # Organization
 categories = ["Blog Posts"]
 tags = ["Hugo", "Writing", "Alpha"]
-## Series
-series = ""
-parts = ""
-weight = 0
 
 # Display
 featured = true
@@ -23,7 +19,6 @@ recommended = true
 
 # Publication Control
 draft = false
-layout = "page"
 
 # Advanced SEO
 seo\_type = "BlogPosting"
