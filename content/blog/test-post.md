@@ -13,9 +13,9 @@ license = "CC-BY"
 categories = ["Blog Posts"]
 tags = ["Hugo", "Writing", "Alpha"]
 ## Series
-series = "Two Why's and a How"
-parts = "The How"
-weight = 4
+series = ""
+parts = ""
+weight = 0
 
 # Display
 featured = true
@@ -26,9 +26,9 @@ draft = false
 layout = "page"
 
 # Advanced SEO
-seo_type = "BlogPosting"
-seo_image = ""
-twitter_username = ""
+seo\_type = "BlogPosting"
+seo\_image = ""
+twitter\_username = ""
 +++
 
-literally just a test
+literally just a test to see if it works
