@@ -1,4 +1,5 @@
 +++
+
 title = "vibe coding probably isn’t coming for your dev job"
 description = “agentic AI is unlikely to replace developers any time soon, but marketing departments might be screwed"
 
@@ -14,6 +15,7 @@ draft = false
 
 featured = true
 recommended = true
+
 +++
 
 Alternatively, I could have titled this blog post “==how I tried to build an app with AI and really wish I hadn’t.==”
