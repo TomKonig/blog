@@ -1,8 +1,6 @@
 +++
-
-title = "vibe coding probably isn’t coming for your dev job"
+title = "vibe coding probably is not coming for your dev job"
 description = “agentic AI is unlikely to replace developers any time soon, but marketing departments might be screwed"
-
 date = "2025-16-15T15:02:55+01:00"
 author = "Thomas"
 categories = [‘technology’,’AI’]
@@ -10,12 +8,9 @@ tags = [‘ai’, ‘web apps’, ‘replacing developers’, ‘vibe coding’]
 series = “On Vibe Coding”
 parts = “1. Are The Vibe Coders Coming For Us?”
 weight = 1
-
 draft = false
-
 featured = true
 recommended = true
-
 +++
 
 Alternatively, I could have titled this blog post “==how I tried to build an app with AI and really wish I hadn’t.==”
