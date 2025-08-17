@@ -1,7 +1,7 @@
 +++
 title = "vibe coding probably is not coming for your dev job"
 description = "agentic AI is unlikely to replace developers any time soon but marketing departments might be screwed"
-date = "2025-16-15T15:02:55+01:00"
+date = "2025-08-15T15:02:55+02:00"
 author = "Thomas"
 categories = ['technology','AI']
 tags = ['ai','web apps','replacing developers','vibe coding']
