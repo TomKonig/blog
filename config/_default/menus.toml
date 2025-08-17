@@ -19,14 +19,19 @@
 
 # Main Menu
 [[main]]        
-  name = "Resume"
+  name = "curriculum vitae (digital)"
   url = "https://tomkonig.com"
   weight = 100
 
 [[main]]        
-  name = "Blog"
+  name = "blog index"
   url = "/"
-  weight = 110 
+  weight = 110
+
+[[main]]        
+  name = "more links"
+  url = "https://links.tomkonig.com"
+  weight = 120 
 
 # Main Secondary
 #[[main_secondary]]
