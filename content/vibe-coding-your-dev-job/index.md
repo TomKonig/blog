@@ -60,7 +60,7 @@ One idea, which immediately caught my attention, was that of a beautifully desig
  
 The user could then fully customize these recipes to their liking, or go incrementally day-by-day, rating their daily brews, in response to which the app would suggest minor tweaks accordingly, letting the user dial in on the exact recipe fit for them. Coffee a little bitter? “*Let’s try a slightly shorter brew time tomorrow,*” the app would suggest and update its timer the next day automatically. 
 
-![This was the one-shot ideation Gemini came up with on a horrible prompt.](https://img.tomkonig.com/vibe_coding_your_job_1.jpeg “Just … just like that.”)
+![This was the one-shot ideation Gemini came up with on a horrible prompt.](https://img.tomkonig.com/vibe_coding_your_job_1.jpg “Just … just like that.”)
 
 Okay, pretty cool suggestion, I figured, but I have not written a line of code outside of a little HTML markup in ten+ years, so this would remain in ideation. Maybe AI is simply a great tool for planning, but it is still on the user to execute, after all. Or so I thought, ==until Gemini asked whether I’d like it to begin development for me==. 
  
