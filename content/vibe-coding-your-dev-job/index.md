@@ -13,8 +13,8 @@ featured = true
 recommended = true
 +++
 
-Alternatively, I could have titled this blog post “==how I tried to build an app with AI and really wish I hadn’t.==”
- 
+Alternatively, I could have titled this blog post “==how I tried to build an app with AI and really wish I hadn’t.==” I don't think I will ever work as a hands-on content marketer again. But at least I learned to code again; the one thing the promises of agentic coding AI promised me I wouldn't have to.
+<!--more-->
 ## Disclaimer
 I am currently establishing an entire startup on the back of agentic AI[^1] frameworks, using AI models both for the front- and back-end implementations, and as stand-ins for the team I cannot afford to hire in the actual DevOps-workflow. As I’ll get to later, that is only possible with a lot of handholding of the AI, and because I have enough software development experience to proofread the models’ work, but it is undeniable that I am working 25-30 times faster than I ever could on my own with this technology, and I barely have to touch any code myself. 
  
