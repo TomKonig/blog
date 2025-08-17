@@ -24,7 +24,7 @@ At the same time, I am deeply skeptical of AI. Both of the way global corporatio
  
 For instance, a guy on Reddit recently released five different “AI” apps for identifying cats, identifying snakes, identifying plants, identifying trees … **on the same day**. All clearly just built around a reskinned API call directly to the cheapest possible model — or perhaps even a local open LLM[^3] or Google’s free tier, shamelessly sharing user data for training purposes — in a not-even-pretty packaging, monetized by exorbitant subscription fees hundreds of times more expensive than the few cents (if anything) he’s paying to the model providers. For something the users could do themselves on the free tier of ChatGPT. 
 
-![A single developer’s App Library, showing the same app reskinned over and over again](vibe-coding-your-dev-job/5.jpeg “Seriously, at what point do you go *‘okay, time to come up with a new idea’*?”)
+![A single developer’s App Library, showing the same app reskinned over and over again](vibe-coding-your-dev-job/5.jpeg "Seriously, at what point do you go *‘okay, time to come up with a new idea’*?")
 
 The AI-implementation market is not great right now. Even otherwise reputable companies like Notion or, hell, your bank probably, seem to be releasing one white-labeled, barely passable “AI product” after the other, hoping to cash in on the zeitgeist or to replicate Lovable’s newly minted unicorn status. 
  
@@ -108,7 +108,7 @@ So now we’re building it, my agentic AIs and I. And the journey is full of inc
  
 The good news is I have to understand very little of that beyond a surface level, because highly complicated algorithmic math is where AI excels. It is, after all, itself a product of those exact things. For the most part I can worry about building out the auxiliary capabilities like developing self-optimizing AI workflows to handle testing, SEO, maintenance, expanding the product catalogue, you name it. All, of course, spanning various AI models, some locally hosted, some foundational models from companies like OpenAI and Google, each fine-tuned to do a single task but to do it exceedingly well. 
 
-![A table showing an earlier version of the self-optimizing agentic workflow.](vibe-coding-your-dev-job/2.jpeg “This is a slightly earlier iteration of the self-optimizing workflow, but Gemini even organized this neat table for me.”)
+![A table showing an earlier version of the self-optimizing agentic workflow.](vibe-coding-your-dev-job/2.jpeg "This is a slightly earlier iteration of the self-optimizing workflow, but Gemini even organized this neat table for me.")
 
 The bad news is I’ve had to learn to code again, because there is one thing AI just does not do very well. This is where we get to the thing I claimed this whole blog post was about from the get-go. 
  
@@ -123,7 +123,7 @@ As a really simple example, if anything breaks on your front-end —- in your CS
  
 But then the next time something breaks, and you again ask AI to fix it, it attempts to, but now no fix seems to work. Because somewhere in your stylesheet there’s a duplicate class with attributes totally overruling whatever it is the AI is trying to do in the newly generated class, and ==it just cannot grasp that==.
 
-![A custom Gemini Gem realizing it was, in fact, not right](vibe-coding-your-dev-job/6.jpeg “There is a **lot** of this. It had, in fact, not found the actual bug that time either. I ended up finding it myself.”) 
+![A custom Gemini Gem realizing it was, in fact, not right](vibe-coding-your-dev-job/6.jpeg "There is a **lot** of this. It had, in fact, not found the actual bug that time either. I ended up finding it myself.")
 
 ### There’s a lot of necessary human oversight in complex tasks
 Countless times have I tried to take the easy way out and fix some benign problem via the AI (such as “*hey, this button doesn’t change colors in dark mode,*”) and the AI will return and answer like: “*uh, yeah it does, the code is right there,*” and it isn’t until I go into my web inspector and point out the **exact** attribute which is overruling whatever code the AI checked against that it goes “*oh, you’re totally right, there’s a bug right here.*”
@@ -138,7 +138,7 @@ Most of the time now I end up just fixing the code myself. It’s faster that wa
  
 What began as a curiosity and turned into a full-blown startup ended up forcing me to do the one thing these vibe coding models were supposed to offer me freedom from: I have had to learn to code again, just to fix the things the AI keeps breaking. Other than that it has been great. Without AI at all I would have been 1/300th of where I am now in terms of progress. And I wouldn’t have even begun, because the mathematical implementation goes so far above my head I could’ve never grasped it. Luckily math is where the AI excels.
 
-![A small excerpt from a very long PDF containing the mathematical framework for my application.](vibe-coding-your-dev-job/6.jpeg “I have probably 80 pages worth of PDF containing dense theory like this, which I feed back into the AI loop every time I iterate.”)
+![A small excerpt from a very long PDF containing the mathematical framework for my application.](vibe-coding-your-dev-job/6.jpeg "I have probably 80 pages worth of PDF containing dense theory like this, which I feed back into the AI loop every time I iterate.")
 
 I think vibe coding is amazing. But if any complexity at all is introduced, it is only as amazing as the operator is qualified to make it.
  
