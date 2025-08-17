@@ -53,14 +53,14 @@ I asked ChatGPT to brush up my resume. It did. And it did so pretty well, too. I
 Half amazed, half petrified, I went and signed up for the $20 monthly subscriptions for both ChatGPT and Gemini and decided to try and push these things to their absolute limits.
  
 > “Before I knew it, I had a working, well-structured .apk ready to compile and upload to the Play Store. All in the span of probably two hours.”
- 
+
 Being still unfamiliar with the more technical aspects of using an AI chatbot such as prompt engineering, context windows[^5], and tool use, I went straight to Gemini and set up a pitifully basic Gem.[^6] I provided a system prompt suggesting it was now a full-stack digital product designer, and asked it to suggest —- and mock up —- an idea for a simple app, which could be sold to a high-paying niche interest market with a buy-once model. Immediately it came back with suggestions which, dare I say, seemed pretty viable.
  
 One idea, which immediately caught my attention, was that of a beautifully designed coffee-brewing app for the aspiring James Hoffmanns of the world, complete with built in standard brewing recipes for every combination of bean roast and popular brewing device you could imagine. 
  
 The user could then fully customize these recipes to their liking, or go incrementally day-by-day, rating their daily brews, in response to which the app would suggest minor tweaks accordingly, letting the user dial in on the exact recipe fit for them. Coffee a little bitter? “*Let’s try a slightly shorter brew time tomorrow,*” the app would suggest and update its timer the next day automatically. 
 
-![This was the one-shot ideation Gemini came up with on a horrible prompt.](1.jpeg “Just … just like that.”)
+![This was the one-shot ideation Gemini came up with on a horrible prompt.](1.jpeg "Just … just like that.")
 
 Okay, pretty cool suggestion, I figured, but I have not written a line of code outside of a little HTML markup in ten+ years, so this would remain in ideation. Maybe AI is simply a great tool for planning, but it is still on the user to execute, after all. Or so I thought, ==until Gemini asked whether I’d like it to begin development for me==. 
  
@@ -73,7 +73,7 @@ Hell, it even went and fetched standardized brewing recipes for all sorts of cof
  
 For my part, the most work I had to do was correct a color decision here, a typography there, ask it to move a certain button somewhere else, or tell it to “continue,” when it ran into its max permissible output in a single run. Before I knew it, I had a working, well-structured .apk ready to compile and upload to the Play Store (I didn’t, FYI, but it’s still on my computer somewhere). It even provided me a step-by-step guide for compiling the code, registering for Expo, and passing Google’s reviews. All in the span of probably two hours.
 
-[A screenshot of the folder containing all the components of the .apk on my computer](vibe-coding-your-dev-job/4.jpeg “It even organized the individual files for me, so all I had to do was compile and run.”)
+[A screenshot of the folder containing all the components of the .apk on my computer](vibe-coding-your-dev-job/4.jpeg "It even organized the individual files for me, so all I had to do was compile and run.")
 
 I just about lost my marbles then. But this was still just a small, mostly streamlined app. All its functionality could be hardcoded ahead of time, and it required very little complex logic. Technically it didn’t even need the database integration, it could simply store the data (the user’s modifications and custom recipes, say) in local storage and be truly self-contained. 
  
@@ -103,7 +103,7 @@ The interesting thing was this: In a span of a few days, limited mostly by my ow
 I say “*inaccessible*” because for humans to implement the solution those machines just came up with (although we have, on a theoretical level, understood this to be a solution for decades) would require so much over-engineering, maintenance, and live interaction with the customer it would simply not be feasible. But if AI can do it in a fraction of the time, and at a fraction of the cost? ==And in real time==? Uncapped potential. 
  
 > “AI is not forward-thinking. It does not consider the long-term implications of the structure of its code. It considers only whether something works right now.”
- 
+
 So now we’re building it, my agentic AIs and I. And the journey is full of incredibly complicated algorithms and theories with terrifying names like *Thompson Sampling*, *TF-IDF Scoring*, and *384-dimensional semantic tag embeddings*. 
  
 The good news is I have to understand very little of that beyond a surface level, because highly complicated algorithmic math is where AI excels. It is, after all, itself a product of those exact things. For the most part I can worry about building out the auxiliary capabilities like developing self-optimizing AI workflows to handle testing, SEO, maintenance, expanding the product catalogue, you name it. All, of course, spanning various AI models, some locally hosted, some foundational models from companies like OpenAI and Google, each fine-tuned to do a single task but to do it exceedingly well. 
@@ -148,7 +148,7 @@ However, there’s one specific implementation where I realized very quickly tha
 You know what has literally zero technical complexity? Landing pages. Social media management. Writing press releases. Editorials. Creatives.
  
 > “Suddenly a marketing department of 30 people can be sliced down to one or two people keeping the agents in check.”
- 
+
 AI can do all of that, and with very little fine-tuning it can do it completely autonomously. One of the first things I managed to successfully build, requiring zero human oversight, was the marketing loop. 
  
 #### It works like this:
