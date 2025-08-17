@@ -73,7 +73,7 @@ Hell, it even went and fetched standardized brewing recipes for all sorts of cof
  
 For my part, the most work I had to do was correct a color decision here, a typography there, ask it to move a certain button somewhere else, or tell it to “continue,” when it ran into its max permissible output in a single run. Before I knew it, I had a working, well-structured .apk ready to compile and upload to the Play Store (I didn’t, FYI, but it’s still on my computer somewhere). It even provided me a step-by-step guide for compiling the code, registering for Expo, and passing Google’s reviews. All in the span of probably two hours.
 
-[A screenshot of the folder containing all the components of the .apk on my computer](vibe-coding-your-dev-job/4.jpeg "It even organized the individual files for me, so all I had to do was compile and run.")
+![A screenshot of the folder containing all the components of the .apk on my computer](vibe-coding-your-dev-job/4.jpeg "It even organized the individual files for me, so all I had to do was compile and run.")
 
 I just about lost my marbles then. But this was still just a small, mostly streamlined app. All its functionality could be hardcoded ahead of time, and it required very little complex logic. Technically it didn’t even need the database integration, it could simply store the data (the user’s modifications and custom recipes, say) in local storage and be truly self-contained. 
  
