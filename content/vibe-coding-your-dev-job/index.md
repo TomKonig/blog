@@ -138,7 +138,7 @@ Most of the time now I end up just fixing the code myself. It’s faster that wa
  
 What began as a curiosity and turned into a full-blown startup ended up forcing me to do the one thing these vibe coding models were supposed to offer me freedom from: I have had to learn to code again, just to fix the things the AI keeps breaking. Other than that it has been great. Without AI at all I would have been 1/300th of where I am now in terms of progress. And I wouldn’t have even begun, because the mathematical implementation goes so far above my head I could’ve never grasped it. Luckily math is where the AI excels.
 
-![A small excerpt from a very long PDF containing the mathematical framework for my application.](vibe-coding-your-dev-job/5.jpeg "I have probably 80 pages worth of PDF containing dense theory like this, which I feed back into the AI loop every time I iterate.")
+![A small excerpt from a very long PDF containing the mathematical framework for my application.](vibe-coding-your-dev-job/3.jpeg "I have probably 80 pages worth of PDF containing dense theory like this, which I feed back into the AI loop every time I iterate.")
 
 I think vibe coding is amazing. But if any complexity at all is introduced, it is only as amazing as the operator is qualified to make it.
  
