@@ -179,7 +179,7 @@ I have a daily deep research agent running a scheduled cron task to 1) look for 
  
 The thing is, AI can do a lot of cool things. And then, inevitably, it will probably doom us all one day. But until then, I’ve given in, and I intend to make the most of it.
  
-{<about AUTHOR="Thomas Kønig" AVATAR="avatar.png">}
+{{< about AUTHOR="Thomas Kønig" AVATAR="avatar.png" >}}
 
 Hi. Thanks for sticking with me to the end of this blog post. It got a lot longer than I intended. To sum myself up. To give you a short introduction to me, if you don’t happen to know me personally:
  
@@ -189,7 +189,7 @@ In my spare time, I’m just "dad."
 
 You’re welcome to get in touch if you’d like. You can find most of my socials and my e-mail and even a phone number[here](https://links.tomkonig.com "here").
  
-{</about>}
+{{< /about >}}
 
 [^1]:	AI which have agency, i.e. is capable of independently acting upon other things in some way, such as posting to social media or even controlling your browser.
 
