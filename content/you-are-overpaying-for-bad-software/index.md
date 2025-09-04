@@ -12,9 +12,6 @@ draft = false
 
 featured = true
 recommended = true
-series = "On Vibe Coding"
-parts = "1. Are The Vibe Coders Coming For Us?"
-weight = 3
 +++
 #### You're being milked, and it is only partially your own fault. Every "AI coding " app under the sun seems intent on making it as opaque and utterly confusing as possible to find out exactly what you're paying, and what you're even paying for. Worse still, the most expensive services seem to also be the worst, the least secure, and the ones with the most predatory lock-ins. But at least they have ✨aesthetics✨, I guess. 
 
@@ -172,3 +169,5 @@ In my spare time, I’m just "dad.”
 You’re welcome to get in touch if you’d like. You can find most of my socials and my e-mail and even a phone number[here](https://links.tomkonig.com "here").
  
 {{\< /about \>}}
+
+{{\< recent TITLE="other posts you may enjoy" LIMIT="3" \>}} 
