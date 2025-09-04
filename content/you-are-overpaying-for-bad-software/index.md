@@ -2,7 +2,7 @@
 title = "You are probably overpaying for bad software"
 description = "There are a million supposed vibecoding apps out there to choose from and compare. From the Lovables to the JetBrains. But are they any good? Can they even be compared?"
 
-date = "2025-09-04T21:33:00+01:00"
+date = "2025-09-04T20:33:00+01:00"
 author = "Thomas Kønig"
 
 categories = ['AI', 'Technology']
