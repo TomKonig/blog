@@ -13,7 +13,9 @@ draft = false
 featured = true
 recommended = true
 +++
+
 #### You're being milked, and it is only partially your own fault. Every "AI coding " app under the sun seems intent on making it as opaque and utterly confusing as possible to find out exactly what you're paying, and what you're even paying for. Worse still, the most expensive services seem to also be the worst, the least secure, and the ones with the most predatory lock-ins. But at least they have ✨aesthetics✨, I guess. 
+\<!--more--\>
 
 *(**PS**: This post was written in a single session targeting vibecoding newbies with little to no code experience on a subreddit dedicated to vibecoding. Experienced developers will probably find no new information here. You're welcome to read anyway, of course.
 
