@@ -1,22 +1,31 @@
 +++
 title = "you are probably overpaying for bad software"
-description = "There are a million supposed vibecoding apps out there to choose from and compare. From the Lovables to the JetBrains. But are they any good? Can they even be compared?"
-
+description = "There are a million supposed vibecoding apps out there to choose from and compare. From the Lovables to the JetBrains. But are they any good? Do they compare?"
 date = "2025-09-04T20:33:00+01:00"
 author = "Thomas Kønig"
-
-categories = ['AI', 'Technology']
-tags = ['Vibecoding', 'No-Code', 'Agentic Coding', 'IDEs']
-
+categories = [
+  "AI",
+  "AI coding tools",
+  "coding education",
+  "developer tools",
+  "IDE integrations",
+  "no-code platforms",
+  "Software evaluation",
+  "software pricing",
+  "software security.",
+  "Technology"
+]
+tags = [ "Vibecoding", "No-Code", "Agentic Coding", "IDEs" ]
 draft = false
-
 featured = true
 recommended = true
+fmContentType = "story"
+keywords = [ "ai", "agentic" ]
 +++
 
 #### You're being milked, and it is only partially your own fault. Every "AI coding " app under the sun seems intent on making it as opaque and utterly confusing as possible to find out exactly what you're paying, and what you're even paying for. Worse still, the most expensive services seem to also be the worst, the least secure, and the ones with the most predatory lock-ins. But at least they have ✨aesthetics✨, I guess. 
-\<!--more--\>
-—
+___
+
 *(**PS**: This post was written in a single session targeting vibecoding newbies with little to no code experience on a subreddit dedicated to vibecoding. Experienced developers will probably find no new information here. You're welcome to read anyway, of course.*
 
 ***PPPPS (Post-writing)**: This got a lot longer than I anticipated it would. I hope it's helpful to the three people who will actually read it end to end. There's a takeaways/TL;DR in the bottom, which you can skip to to decide if the rest of it is worth reading, or so you can pretend you've read it all, whatever works for you. If you ask your AI chrome extension to summarize this for you, I will secretly hate you for turning one of the last remaining actually knowledge-producing human-to-human communication methods on the internet, long-form post, into yet another 70% accurate generic keyword list.)*
