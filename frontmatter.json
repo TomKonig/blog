@@ -146,5 +146,6 @@
       "body": "![[[alt]]]([[&mediaUrl]], \"[[caption]]\")",
       "isMediaSnippet": true
     }
-  }
+  },
+  "frontMatter.website.host": "https://blog.tomkonig.com"
 }
