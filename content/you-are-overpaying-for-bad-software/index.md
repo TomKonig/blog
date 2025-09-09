@@ -179,6 +179,6 @@ In my spare time, I’m just "dad.”
 
 You’re welcome to get in touch if you’d like. You can find most of my socials and my e-mail and even a phone number[here](https://links.tomkonig.com "here").
  
-{{ < /about > }}
+{{< /about >}}
 
-{{ < recent TITLE="other posts you may enjoy" LIMIT="3" > }} 
+{{< recent TITLE="other posts you may enjoy" LIMIT="3" >}} 
