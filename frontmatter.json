@@ -100,5 +100,23 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    },
+    {
+      "title": "you-are-overpaying-for-bad-software",
+      "path": "[[workspace]]/content/you-are-overpaying-for-bad-software"
+    },
+    {
+      "title": "vibe-coding-your-dev-job",
+      "path": "[[workspace]]/content/vibe-coding-your-dev-job"
+    },
+    {
+      "title": "behold-the-appocalypse",
+      "path": "[[workspace]]/content/behold-the-appocalypse"
+    }
+  ]
 }
