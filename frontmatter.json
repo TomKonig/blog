@@ -118,5 +118,33 @@
       "title": "behold-the-appocalypse",
       "path": "[[workspace]]/content/behold-the-appocalypse"
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Post Footer": {
+      "description": "",
+      "body": [
+        "{{ < about AUTHOR=\"Thomas Kønig\" AVATAR=\"avatar.png\" > }}",
+        "",
+        "Hi. Thanks for sticking with me to the end of this blog post. It got a lot longer than I intended. Sorry about that. I hope you learned something.",
+        "",
+        "To give you a short introduction to me, if you don’t happen to know me personally:",
+        " ",
+        "I suppose I am a lot of things. A journalist, an AI developer, a slightly eccentric tinkerer.",
+        " ",
+        "In my spare time, I’m just \"dad.”",
+        "",
+        "You’re welcome to get in touch if you’d like. You can find most of my socials and my e-mail and even a phone number[here](https://links.tomkonig.com \"here\").",
+        " ",
+        "{{< /about >}}",
+        "",
+        "{{< recent TITLE=\"other posts you may enjoy\" LIMIT=\"3\" >}}"
+      ],
+      "fields": []
+    },
+    "Image": {
+      "description": "",
+      "body": "![[[alt]]]([[&mediaUrl]], \"[[caption]]\")",
+      "isMediaSnippet": true
+    }
+  }
 }

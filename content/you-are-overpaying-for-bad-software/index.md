@@ -167,7 +167,7 @@ It will take you a very short time to get to a place where you can read code wel
 	- A) Resign yourself to only ever building apps and prototypes for yourself, which you by no means distribute to other people unless they contain no back-end **at all**, no logins, no databases, no billing, **nothing**. 
 	- Or B) do something else, because you are neither responsible nor mature enough to build a product, much less a business. If you refuse to do either, and you build a deeply insecure product on Lovable and sell it to unsuspecting customers, I sincerely hope you will encounter option C) be bankrupted by a well-deserved class action lawsuit for your criminal negligence when the laziest fourteen year old hacker imaginable uploads a malicious file to your server and manages to deploy ransomware onto all your customers' machines. Were it up to me, you'd spend some time in prison too, because you are a fraud on par with faking your pilot certification and bringing people onto a passenger airplane. You are gambling with others' lives, data and assets for a quick buck. Fuck you.
 
-{{ < about AUTHOR="Thomas Kønig" AVATAR="avatar.png" > }}
+{{< about AUTHOR="Thomas Kønig" AVATAR="avatar.png" >}}
 
 Hi. Thanks for sticking with me to the end of this blog post. It got a lot longer than I intended. Sorry about that. I hope you learned something.
 
