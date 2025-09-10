@@ -9,7 +9,7 @@ categories = ['AI', 'Technology']
 tags = ['AI', 'Enshittification', 'Development']
 series = "On Vibe Coding"
 parts = "1. Are The Vibe Coders Coming For Us?"
-weight = 2
+weight = 1
 
 draft = false
 featured = true

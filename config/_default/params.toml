@@ -11,13 +11,13 @@ pseudologo_enabled = true
 established_year = "2025"
 # A motto or tagline displayed in the footer. Use a backslash (\) to escape
 # quotes.
-motto = "\"the limits of my language mean the limits of my world.\""
+motto = "\"stories that scale.\""
 
 
 # Integrations
 # ---------------------
 # Enables Pagefind client-side search (requires installation).
-pagefind_enabled   = false
+pagefind_enabled   = true
 # Enables GoatCounter analytics. Enter your site code here. (requires sign-up)
 goatcounter_prefix = "tomkonig"
 
@@ -40,7 +40,7 @@ seo_license_url = "https://www.gnu.org/licenses/gpl-3.0.html" # Overridden by `l
 # Fill your organization/company name.
 seo_organization = "" # Defaults to site title.
 # Fill with a name
-seo_author = "Thomas"  # Overridden by `author` in page frontmatter.
+seo_author = "Thomas Kønig"  # Overridden by `author` in page frontmatter.
 # URL to your author profile for open-graph
 seo_author_url = "" 
 # Your site's @handle for the `twitter:site` tag in Twitter Cards

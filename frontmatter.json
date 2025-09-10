@@ -93,6 +93,197 @@
           "title": "recommended",
           "name": "recommended",
           "type": "boolean"
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "ai",
+            "agentic"
+          ]
+        },
+        {
+          "title": "series",
+          "name": "series",
+          "type": "string"
+        },
+        {
+          "title": "parts",
+          "name": "parts",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "page",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "string"
+        },
+        {
+          "title": "license",
+          "name": "license",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "series",
+          "name": "series",
+          "type": "string"
+        },
+        {
+          "title": "parts",
+          "name": "parts",
+          "type": "string"
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "recommended",
+          "name": "recommended",
+          "type": "boolean"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "seo_type",
+          "name": "seo_type",
+          "type": "string"
+        },
+        {
+          "title": "seo_image",
+          "name": "seo_image",
+          "type": "image"
+        },
+        {
+          "title": "twitter_username",
+          "name": "twitter_username",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "list",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "string"
+        },
+        {
+          "title": "paginate",
+          "name": "paginate",
+          "type": "boolean"
+        },
+        {
+          "title": "series",
+          "name": "series",
+          "type": "string"
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "seo_type",
+          "name": "seo_type",
+          "type": "string"
+        },
+        {
+          "title": "seo_image",
+          "name": "seo_image",
+          "type": "image"
+        },
+        {
+          "title": "twitter_username",
+          "name": "twitter_username",
+          "type": "string"
         }
       ]
     }
@@ -105,18 +296,6 @@
     {
       "title": "content",
       "path": "[[workspace]]/content"
-    },
-    {
-      "title": "you-are-overpaying-for-bad-software",
-      "path": "[[workspace]]/content/you-are-overpaying-for-bad-software"
-    },
-    {
-      "title": "vibe-coding-your-dev-job",
-      "path": "[[workspace]]/content/vibe-coding-your-dev-job"
-    },
-    {
-      "title": "behold-the-appocalypse",
-      "path": "[[workspace]]/content/behold-the-appocalypse"
     }
   ],
   "frontMatter.content.snippets": {

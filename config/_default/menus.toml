@@ -73,6 +73,12 @@ name = "CV"
 # Shortcode Social
 [[sc_social]]
   name = "LinkedIn"
-  url = "https://linkedin.com/in/tkonig"
+  url = "https://www.linkedin.com/in/tkonig"
   pre = "#linkedin" # Renders a specific icon. See docs for available icons.
+  weight = 100
+
+[[sc_social]]
+  name = "Github"
+  url = "https://github.com/TomKonig"
+  pre = "#github" # Renders a specific icon. See docs for available icons.
   weight = 100

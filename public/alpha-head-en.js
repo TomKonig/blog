@@ -60,6 +60,70 @@
     }
   };
 
+  // ns-hugo-imp:/Users/thomaskonig/Documents/GitHub/blog/themes/alpha/assets/alpha/js/utils.js
+  var $ = (selector, scope = document) => scope.querySelector(selector);
+  var $$ = (selector, scope = document) => scope.querySelectorAll(selector);
+  var errorHandler = (message, type = "error", halt = false) => {
+    console[type](message);
+    if (halt) {
+      throw new Error(message);
+    }
+  };
+  var setAttributes = (el, attrs) => {
+    for (const key in attrs) {
+      el.setAttribute(key, attrs[key]);
+    }
+  };
+
+  // ns-hugo-imp:/Users/thomaskonig/Documents/GitHub/blog/themes/alpha/assets/alpha/js/modules/pagefind-alpha.js
+  var initPagefindAlpha = (i18n) => {
+    const ELEMENTS = {
+      searchBtn: $('button[data-alpha="search-button"]'),
+      searchCont: $('[data-alpha="search-template-container"]'),
+      searchTemplate: $('[data-alpha="search-template"]')
+    };
+    if (!ELEMENTS.searchBtn || !ELEMENTS.searchCont) {
+      console.error(
+        ELEMENTS.searchBtn ? i18n.searchContMiss : i18n.searchBtnMiss
+      );
+      return;
+    }
+    const toggleSearch = () => {
+      const searchIsOpen = ELEMENTS.searchBtn.getAttribute("aria-expanded") === "true";
+      searchIsOpen ? closeSearch() : openSearch();
+    };
+    const openSearch = () => {
+      if (ELEMENTS.searchTemplate) {
+        const clonedSearch = ELEMENTS.searchTemplate.content.cloneNode(true);
+        ELEMENTS.searchCont.innerHTML = "";
+        ELEMENTS.searchCont.appendChild(clonedSearch);
+        new PagefindUI({ element: "#search", showSubResults: true });
+        const searchInput = ELEMENTS.searchCont.querySelector(
+          ".pagefind-ui__search-input"
+        );
+        if (searchInput) {
+          setTimeout(() => searchInput.focus(), 0);
+        }
+        const closeBtn = $('[data-alpha="close-search-button"]');
+        if (closeBtn) {
+          closeBtn.addEventListener("click", closeSearch);
+        }
+      }
+      document.body.classList.add("overflow-hidden", "h-screen");
+      ELEMENTS.searchBtn.setAttribute("aria-expanded", "true");
+      ELEMENTS.searchCont.setAttribute("role", "dialog");
+      ELEMENTS.searchCont.setAttribute("aria-modal", "true");
+    };
+    const closeSearch = () => {
+      document.body.classList.remove("overflow-hidden", "h-screen");
+      ELEMENTS.searchCont.innerHTML = "";
+      ELEMENTS.searchBtn.setAttribute("aria-expanded", "false");
+      ELEMENTS.searchCont.removeAttribute("role");
+      ELEMENTS.searchCont.removeAttribute("aria-modal");
+    };
+    ELEMENTS.searchBtn.addEventListener("click", toggleSearch);
+  };
+
   // ns-hugo-imp:/Users/thomaskonig/Documents/GitHub/blog/themes/alpha/assets/alpha/js/modules/lazy-load.js
   var initLazyLoad = () => {
     const selectors = [".article-content", ".page-content", ".story-content"];
@@ -118,21 +182,6 @@
       highlightHeader.appendChild(copyButton);
       highlight.insertAdjacentElement("afterbegin", highlightHeader);
     });
-  };
-
-  // ns-hugo-imp:/Users/thomaskonig/Documents/GitHub/blog/themes/alpha/assets/alpha/js/utils.js
-  var $ = (selector, scope = document) => scope.querySelector(selector);
-  var $$ = (selector, scope = document) => scope.querySelectorAll(selector);
-  var errorHandler = (message, type = "error", halt = false) => {
-    console[type](message);
-    if (halt) {
-      throw new Error(message);
-    }
-  };
-  var setAttributes = (el, attrs) => {
-    for (const key in attrs) {
-      el.setAttribute(key, attrs[key]);
-    }
   };
 
   // ns-hugo-imp:/Users/thomaskonig/Documents/GitHub/blog/themes/alpha/assets/alpha/js/modules/menu.js
@@ -302,6 +351,11 @@
 
   // <stdin>
   initPrefetch();
+  var pagefindAlphaI18n = {
+    searchContMiss: "Critical UI element missing: Search container (searchCont) not found. Search Modal disabled.",
+    searchBtnMiss: "Critical UI element missing: Search button (searchBtn) not found. Search Modal disabled."
+  };
+  initPagefindAlpha(pagefindAlphaI18n);
   initLazyLoad();
   var copyCodeI18n = {
     copied: "Copied!",
