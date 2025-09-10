@@ -12,7 +12,7 @@ fmContentType = "home"
 +++
 {{< hero
   TITLE="I make things. sometimes I write things too."
-  SUBTITLE="here you'll find all the reading I couldn't find anywhere else to fit in. I spend a lot of time writing technical documentation, tutorials, networking with people who also make and write things across the internet – this is where I get to say all the other stuff. sometimes it'll be informative, sometimes it'll be a rant, sometimes it'll just be an observation. I hope you make something of it."
+  SUBTITLE="here you'll find all the reading I couldn't find anywhere else to fit in. from stray thoughts to rants to maybe a useful guide now and then. I hope you make something of it."
   BTN-TEXT="start reading here"
   BTN-LINK="/blog"
   BTN-LABEL="start reading"
@@ -25,7 +25,7 @@ fmContentType = "home"
 {{< about AUTHOR="Thomas Kønig" AVATAR="avatar.png">}}
 first and foremost, I am a **journalist**, a **developer**, an **AI tinkerer**, and in love with digital communication and the internet. secondly, I am a dad, a concerned citizen, and skeptical of the intrinsically destructive nature of unfettered capitalism.
 \
-I write about **technology**, **AI**, **ethics**, **society**, and occasionally about **parenting** and **life** in general. I also sometimes complain about **journalism** and the **media industry**.
+I spend most of my time writing documentation for the things I make, or networking, or engaging with people across the internet through tutorials, guides, and open discussions. but this place is just for me and my thoughts – and you, now that you've stumbled upon it too. I hope you find something useful here.
 {{< /about >}}
 {{< /text_snippet >}}
 {{< recommended TITLE="Recommended Posts" LIMIT="5" >}}
