@@ -38,7 +38,7 @@ seo_logo_url = ""
 # Ex. "https://creativecommons.org/licenses/by/4.0/"
 seo_license_url = "https://www.gnu.org/licenses/gpl-3.0.html" # Overridden by `license` in page frontmatter. 
 # Fill your organization/company name.
-seo_organization = "" # Defaults to site title.
+seo_organization = "intelfy" # Defaults to site title.
 # Fill with a name
 seo_author = "Thomas Kønig"  # Overridden by `author` in page frontmatter.
 # URL to your author profile for open-graph
@@ -50,7 +50,7 @@ seo_twitter_username = "" # Fills `twitter:site` in twitter-cards
 # -----------------------------
 # Note: These settings control the Web App Manifest, which allows visitors to 
 #add your site to their mobile home screen with a custom icon and splash screen.
-seo_manifest_short_name  = "" # Short name for the home screen icon label.
+seo_manifest_short_name  = "TK" # Short name for the home screen icon label.
 seo_manifest_theme_color = "" # Title bar color. Ex: "#ffffff"
 seo_manifest_bg_color    = "" # Splash screen background color. Ex: "#ffffff"
 

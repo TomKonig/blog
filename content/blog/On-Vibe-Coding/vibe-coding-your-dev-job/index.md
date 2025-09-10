@@ -190,6 +190,7 @@ In my spare time, I’m just "dad."
 You’re welcome to get in touch if you’d like. You can find most of my socials and my e-mail and even a phone number[here](https://links.tomkonig.com "here").
  
 {{< /about >}}
+{{< recommended TITLE="Recommended Posts" LIMIT="5" >}}
 
 [^1]:	AI which have agency, i.e. is capable of independently acting upon other things in some way, such as posting to social media or even controlling your browser.
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Enshittification on Tom Konig | blog</title>
+    <title>Enshittification on Thomas Kønig | blog</title>
     <link>http://localhost:1313/tags/enshittification/</link>
-    <description>Recent content in Enshittification on Tom Konig | blog</description>
+    <description>Recent content in Enshittification on Thomas Kønig | blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 21 Aug 2025 15:51:55 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/enshittification/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>behold the a(i)ppocalypse — ruminating on the death of the App Store</title>
+      <title>the a(i)ppocalypse — ruminating on a dead App Store</title>
       <link>http://localhost:1313/blog/on-vibe-coding/behold-the-appocalypse/</link>
       <pubDate>Thu, 21 Aug 2025 15:51:55 +0100</pubDate>
       <guid>http://localhost:1313/blog/on-vibe-coding/behold-the-appocalypse/</guid>

@@ -7,11 +7,14 @@ paginate = true
 series = ""
 weight = 0
 draft = false
+recommended = false
+featured = false
 layout = "list"
 seo_type = ""
 seo_image = ""
 twitter_username = ""
 menus = "main"
+fmContentType = "list"
 +++
 {{< text_snippet >}}
 below you'll find a paginated collection of every post I've ever written on this blog -- more or less.

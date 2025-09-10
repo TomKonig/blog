@@ -4,7 +4,7 @@
 # Documentation: https://alpha.oxypteros.com/docs/config/hugo-toml
 
 baseURL = "https://blog.tomkonig.com" # Replace with production URL
-title = "Tom Konig | blog"
+title = "Thomas Kønig | blog"
 theme = "alpha"
 #timeZone = "Europe/Rome"
 

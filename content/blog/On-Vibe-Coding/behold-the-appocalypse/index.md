@@ -1,6 +1,6 @@
 +++
-title = "behold the a(i)ppocalypse — ruminating on the death of the App Store"
-description = "AI might not be coming for humanity yet, but it sure is busy murdering the organic, hand-crafted market of apps built by developers who truly cared about their products"
+title = "the a(i)ppocalypse — ruminating on a dead App Store"
+description = "AI isn't coming for humanity yet, but it's killing the hand-crafted app market built by developers who cared about their products."
 
 date = "2025-08-21T15:51:55+01:00"
 author = "Thomas Kønig"
@@ -113,6 +113,7 @@ In my spare time, I’m just "dad."
 You’re welcome to get in touch if you’d like. You can find most of my socials and my e-mail and even a phone number[here](https://links.tomkonig.com "here").
  
 {{< /about >}}
+{{< recommended TITLE="Recommended Posts" LIMIT="5" >}}
 
 [^1]:	Large-Language Models, a technically more correct name for the things we colloquially refer to as AI today.
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>On Vibe Coding on Tom Konig | blog</title>
+    <title>On Vibe Coding on Thomas Kønig | blog</title>
     <link>http://localhost:1313/series/on-vibe-coding/</link>
-    <description>Recent content in On Vibe Coding on Tom Konig | blog</description>
+    <description>Recent content in On Vibe Coding on Thomas Kønig | blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Sep 2025 20:33:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 12:05:41 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/series/on-vibe-coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>you are probably overpaying for bad software</title>
@@ -16,7 +16,7 @@
       <description>&lt;h4 id=&#34;youre-being-milked-and-it-is-only-partially-your-own-fault-every-ai-coding--app-under-the-sun-seems-intent-on-making-it-as-opaque-and-utterly-confusing-as-possible-to-find-out-exactly-what-youre-paying-and-what-youre-even-paying-for-worse-still-the-most-expensive-services-seem-to-also-be-the-worst-the-least-secure-and-the-ones-with-the-most-predatory-lock-ins-but-at-least-they-have-aesthetics-i-guess&#34;&gt;You&amp;rsquo;re being milked, and it is only partially your own fault. Every &amp;ldquo;AI coding &amp;quot; app under the sun seems intent on making it as opaque and utterly confusing as possible to find out exactly what you&amp;rsquo;re paying, and what you&amp;rsquo;re even paying for. Worse still, the most expensive services seem to also be the worst, the least secure, and the ones with the most predatory lock-ins. But at least they have ✨aesthetics✨, I guess.&lt;/h4&gt;</description>
     </item>
     <item>
-      <title>behold the a(i)ppocalypse — ruminating on the death of the App Store</title>
+      <title>the a(i)ppocalypse — ruminating on a dead App Store</title>
       <link>http://localhost:1313/blog/on-vibe-coding/behold-the-appocalypse/</link>
       <pubDate>Thu, 21 Aug 2025 15:51:55 +0100</pubDate>
       <guid>http://localhost:1313/blog/on-vibe-coding/behold-the-appocalypse/</guid>
@@ -28,6 +28,13 @@
       <pubDate>Fri, 15 Aug 2025 15:02:55 +0200</pubDate>
       <guid>http://localhost:1313/blog/on-vibe-coding/vibe-coding-your-dev-job/</guid>
       <description>&lt;p&gt;Alternatively, I could have titled this blog post “&lt;mark&gt;how I tried to build an app with AI and really wish I hadn’t.&lt;/mark&gt;” I don&amp;rsquo;t think I will ever work as a hands-on content marketer again. But at least I learned to code again; the one thing the arbiters of agentic coding AI promised me I wouldn&amp;rsquo;t have to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Vibe Coding</title>
+      <link>http://localhost:1313/blog/on-vibe-coding/</link>
+      <pubDate>Wed, 10 Sep 2025 12:05:41 +0200</pubDate>
+      <guid>http://localhost:1313/blog/on-vibe-coding/</guid>
+      <description>&lt;div class=&#34;mt-8 mb-32 flex w-full max-w-7xl flex-col items-center px-4&#34;&gt;&#xA;    &lt;div class=&#34;font-300 max-w-story text-center text-xl leading-relaxed&#34;&gt;&#xA;      is agentic coding coming for us all? are the developers about to be begging on the streets? probably not, but who knows! stay tuned, and we&amp;rsquo;ll find out together!&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

@@ -7,41 +7,64 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Description",
+          "title": "description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
+          "title": "date",
           "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "type": "datetime"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "author",
+          "name": "author",
+          "type": "string"
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
         },
         {
-          "title": "Tags",
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "series",
+          "name": "series",
+          "type": "string"
+        },
+        {
+          "title": "parts",
+          "name": "parts",
+          "type": "string"
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "recommended",
+          "name": "recommended",
+          "type": "boolean"
         }
       ]
     },
@@ -283,6 +306,82 @@
         {
           "title": "twitter_username",
           "name": "twitter_username",
+          "type": "string"
+        },
+        {
+          "title": "recommended",
+          "name": "recommended",
+          "type": "boolean"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "menus",
+          "name": "menus",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "seo_type",
+          "name": "seo_type",
+          "type": "string"
+        },
+        {
+          "title": "seo_image",
+          "name": "seo_image",
+          "type": "image"
+        },
+        {
+          "title": "twitter_username",
+          "name": "twitter_username",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
           "type": "string"
         }
       ]

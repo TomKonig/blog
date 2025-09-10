@@ -19,17 +19,17 @@
 
 # Main Menu
 [[main]]        
-  name = "curriculum vitae (digital)"
+  name = "home"
+  url = "/"
+  weight = 90
+
+[[main]]        
+  name = "curriculum vitae"
   url = "https://tomkonig.com"
   weight = 100
 
 [[main]]        
-  name = "blog index"
-  url = "/"
-  weight = 110
-
-[[main]]        
-  name = "more links"
+  name = "more links & contact"
   url = "https://links.tomkonig.com"
   weight = 120 
 
@@ -51,10 +51,26 @@
   pre = "#github"  # Renders a specific icon. See docs for available icons.
   weight = 100
 
+[[main_social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/tkonig"
+  pre = "#linkedin" # Renders a specific icon. See docs for available icons.
+  weight = 100
+
 # Footer Menu
 [[footer]]
 name = "CV"
  url = "https://tomkonig.com"
+ weight = 100
+
+[[footer]]
+name = "intelfy"
+ url = "https://intelfy.dk"
+ weight = 100
+
+[[footer]]
+name = "more links"
+ url = "https://links.tomkonig.com"
  weight = 100
 
 # Footer Social
@@ -69,6 +85,12 @@ name = "CV"
   url = "https://github.com/TomKonig"
   pre = "#github"  # Renders a specific icon. See docs for available icons.
   weight = 110
+
+[[footer_social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/tkonig"
+  pre = "#linkedin" # Renders a specific icon. See docs for available icons.
+  weight = 100
 
 # Shortcode Social
 [[sc_social]]
