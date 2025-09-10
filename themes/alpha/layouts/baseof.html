@@ -55,6 +55,7 @@
     {{ partial "header.html" . }}
     <main class="pt-header dark:bg-sur-d z-10 w-full grow">
       {{- block "main" . }}{{ end }}
+      {{ partial "components/mailform.html" . }}
     </main>
     {{ partialCached "footer.html" . .Site.Language.Lang }}
     {{- /* Conditional snackbar container for cookie notice */}}
