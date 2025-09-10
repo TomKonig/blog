@@ -178,6 +178,47 @@
     >
       Keep Reading
     </a>
+    <form method="post" action="http://localhost:9000/subscription/form" class="listmonk-form">
+<div style="width:100%;max-width:500px;margin:2rem auto;padding:2rem;background:#fff;
+            border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.25);
+            font-family:sans-serif;text-align:center;box-sizing:border-box;">
+
+  <h2 style="font-size:1.5rem;margin:0 0 0.75rem;color:#000;">oh, and now that I have you.</h2>
+  <p style="margin:0 0 1.5rem;color:#555;font-size:0.95rem;line-height:1.4;">
+    how about we keep in touch?.<br />no spam. promise.
+  </p>
+
+  <input type="hidden" name="nonce" />
+
+  <input type="email" name="email" required placeholder="E-mail"
+         style="width:100%;padding:0.75rem 1rem;margin-bottom:1rem;
+                border:1px solid #ddd;border-radius:8px;
+                font-size:1rem;box-sizing:border-box;" />
+
+  <input type="text" name="name" placeholder="Name (optional)"
+         style="width:100%;padding:0.75rem 1rem;margin-bottom:1rem;
+                border:1px solid #ddd;border-radius:8px;
+                font-size:1rem;box-sizing:border-box;" />
+
+  <label style="display:flex;align-items:center;justify-content:center;
+                font-size:0.9rem;color:#333;margin-bottom:1.5rem;">
+    <input id="6bfb6" type="checkbox" name="l" checked 
+           value="6bfb607c-e93f-48b0-9761-ba0ce5d21dbb"
+           style="margin-right:0.5rem;" />
+    I'd like to subscribe.
+  </label>
+
+  <input type="submit" value="sign up"
+         style="background:#111;color:#fff;border:none;
+                padding:0.75rem 1.5rem;font-size:1rem;
+                border-radius:8px;cursor:pointer;
+                transition:background 0.2s ease;width:100%;" 
+         onmouseover="this.style.background='#333'" 
+         onmouseout="this.style.background='#111'" />
+
+</div>
+
+</form>
   </div>
 
     </main>
