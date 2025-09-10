@@ -32,6 +32,29 @@
   border-radius: 8px;
   font-size: 1rem;
   box-sizing: border-box;
+  color: #000;
+}
+
+/* 🔽 Placeholder styling */
+.form-input::placeholder {
+  color: #666;     /* dark gray */
+  opacity: 1;      /* override Safari’s default fade */
+}
+
+/* Firefox */
+.form-input:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+/* Internet Explorer 10–11 */
+.form-input:-ms-input-placeholder {
+  color: #666;
+}
+
+/* Edge */
+.form-input::-ms-input-placeholder {
+  color: #666;
 }
 
 .form-checkbox {
