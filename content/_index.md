@@ -28,4 +28,20 @@ first and foremost, I am a **journalist**, a **developer**, an **AI tinkerer**, 
 I spend most of my time writing documentation for the things I make, or networking, or engaging with people across the internet through tutorials, guides, and open discussions. but this place is just for me and my thoughts – and you, now that you've stumbled upon it too. I hope you find something useful here.
 {{< /about >}}
 {{< /text_snippet >}}
+<form method="post" action="http://localhost:9000/subscription/form" class="listmonk-form">
+  <div>
+    <h3>Subscribe</h3>
+    <input type="hidden" name="nonce" />
+
+    <p><input type="email" name="email" required placeholder="E-mail" /></p>
+    <p><input type="text" name="name" placeholder="Name (optional)" /></p>
+
+    <p>
+      <input id="6bfb6" type="checkbox" name="l" checked value="6bfb607c-e93f-48b0-9761-ba0ce5d21dbb" />
+      <label for="6bfb6">TomKonigBlog</label>
+    </p>
+
+    <input type="submit" value="Subscribe " />
+  </div>
+</form>
 {{< recommended TITLE="Recommended Posts" LIMIT="5" >}}
