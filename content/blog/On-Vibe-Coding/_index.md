@@ -1,28 +1,18 @@
 +++
-# Content Identity
 title = "On Vibe Coding"
-description = "A series on the ups and downs of agentic coding and the forthcoming technodystopia"
-
-# Dates
-date = "2025-09-10T12:05:41+02:00"
+description = ""
+date = "2025-09-10T10:29:14.653Z"
 lastmod = ""
-
-# Pagination
 paginate = true
-
-# Series
-series = "On Vibe Coding"
+series = ""
 weight = 0
-
-# Publication Control
 draft = false
 layout = "list"
-
-# Advanced SEO
 seo_type = ""
 seo_image = ""
 twitter_username = ""
+fmContentType = "list"
 +++
 {{< text_snippet >}}
-is agentic coding coming for us all? are the developers about to be begging on the streets? probably not, but who knows! stay tuned, and we'll find out together!
+is AI coming for us all? are the devs about to be begging for scraps on the streets? probably not, but let's find out together -- stay tuned!
 {{< /text_snippet >}}

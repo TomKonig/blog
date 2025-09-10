@@ -65,6 +65,36 @@
           "title": "recommended",
           "name": "recommended",
           "type": "boolean"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "string"
+        },
+        {
+          "title": "license",
+          "name": "license",
+          "type": "string"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "seo_type",
+          "name": "seo_type",
+          "type": "string"
+        },
+        {
+          "title": "seo_image",
+          "name": "seo_image",
+          "type": "image"
+        },
+        {
+          "title": "twitter_username",
+          "name": "twitter_username",
+          "type": "string"
         }
       ]
     },
@@ -415,7 +445,9 @@
         " ",
         "{{< /about >}}",
         "",
-        "{{< recent TITLE=\"other posts you may enjoy\" LIMIT=\"3\" >}}"
+        "{{< featured STYLE=\"simple\" >}}",
+        "",
+        "{{< recommended TITLE=\"other posts you may enjoy\" LIMIT=\"3\" >}}"
       ],
       "fields": []
     },

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Thomas Kønig | blog</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Thomas Kønig | blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Sep 2025 20:33:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/categories/ai/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Coding Tools</title>
+      <link>http://localhost:1313/categories/ai-coding-tools/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/ai-coding-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding Education</title>
+      <link>http://localhost:1313/categories/coding-education/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/coding-education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Tools</title>
+      <link>http://localhost:1313/categories/developer-tools/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/developer-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDE Integrations</title>
+      <link>http://localhost:1313/categories/ide-integrations/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/ide-integrations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No-Code Platforms</title>
+      <link>http://localhost:1313/categories/no-code-platforms/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/no-code-platforms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Evaluation</title>
+      <link>http://localhost:1313/categories/software-evaluation/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/software-evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Pricing</title>
+      <link>http://localhost:1313/categories/software-pricing/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/software-pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Security.</title>
+      <link>http://localhost:1313/categories/software-security./</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/software-security./</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/categories/technology/</link>
+      <pubDate>Thu, 04 Sep 2025 20:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/technology/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -17,5 +17,12 @@ menus = "main"
 fmContentType = "list"
 +++
 {{< text_snippet >}}
-below you'll find a paginated collection of every post I've ever written on this blog -- more or less.
+below you'll find a collection of every post I've ever written on this blog -- more or less. each series contains its own index for clarity. one-offs are listed at the bottom.
+
+enjoy!
+{{< /text_snippet >}}
+{{< num_list TITLE="series" STYLE="card" >}}
+{{< recommended TITLE="most recent" LIMIT="3" >}}
+{{< text_snippet >}}
+one-offs:
 {{< /text_snippet >}}

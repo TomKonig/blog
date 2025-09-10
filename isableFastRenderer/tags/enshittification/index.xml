@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enshittification on Thomas Kønig | blog</title>
+    <link>http://localhost:1313/tags/enshittification/</link>
+    <description>Recent content in Enshittification on Thomas Kønig | blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Aug 2025 15:51:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/enshittification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>the a(i)ppocalypse — ruminating on a dead App Store</title>
+      <link>http://localhost:1313/blog/on-vibe-coding/behold-the-appocalypse/</link>
+      <pubDate>Thu, 21 Aug 2025 15:51:55 +0100</pubDate>
+      <guid>http://localhost:1313/blog/on-vibe-coding/behold-the-appocalypse/</guid>
+      <description>&lt;p&gt;Now, considering the sorry state of LLM&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; benchmarks insofar as it concerns the probably only remotely reliable test for “generalized intelligence,” &#xA;&#xA;&lt;a class=&#34;link-icon&#34;&#xA;  href=&#34;https://agi.safe.ai&#34;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;  &gt;Humanity’s Last Exam&lt;/a&#xA;&gt;, it is likely going to be a while before we have to contend with a globalized SkyNet coming to rapture us all to cyberspace.&lt;/p&gt;&#xA;&lt;p&gt;There seems, however, to be unfolding the demise of an early victim. It squeaks like a canary in the coal mine — if you will — of where unrelenting human greed and increasing automation is likely to drive us all eventually. I am, of course, talking about The App Store.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
